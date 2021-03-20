@@ -1,0 +1,88 @@
+{
+    "users": [
+        {
+            "id": 1001,
+            "username": "duncan",
+            "password": "123",
+            "role": "admin",
+            "borrowedBooks": [
+                {
+                    "bookid": 12345,
+                    "returnDate": ""
+                }
+            ]
+        },
+        {
+            "id": 2001,
+            "username": "duncan",
+            "password": "123",
+            "role": "user"
+        },
+        {
+            "id": 3001,
+            "username": "duncan",
+            "password": "123",
+            "role": "user"
+        }
+    ],
+    "books": [
+        {
+            "author": "Vishal Sharma",
+            "title": "I had a story",
+            "category": "Fiction",
+            "status": "available",
+            "id": 12345
+        },
+        {
+            "author": "Prashant Sharma",
+            "title": "How to do science",
+            "category": "Science",
+            "status": "borrowed",
+            "returnDate": "20 March",
+            "id": 12346
+        },
+        {
+            "author": "Prashant Sharma",
+            "title": "How to do Math",
+            "category": "Science",
+            "status": "borrowed",
+            "returnDate": "21 March",
+            "id": 12346
+        },
+        {
+            "author": "Shobhit Arora",
+            "title": "Scary story",
+            "category": "Horror",
+            "status": "returned",
+            "id": 12347
+        },
+        {
+            "author": "Rahul Sharma",
+            "title": "Transformers",
+            "category": "Science Fiction",
+            "status": "overdue",
+            "id": 12348
+        },
+        {
+            "author": "Vishal Sharma",
+            "title": "I had a story 1",
+            "category": "Fiction",
+            "status": "available",
+            "id": 12349
+        },
+        {
+            "author": "Vishal Sharma",
+            "title": "I had a story 2",
+            "category": "Fiction",
+            "status": "available",
+            "id": 12350
+        },
+        {
+            "author": "Vishal Sharma",
+            "title": "I had a story 3",
+            "category": "Fiction",
+            "status": "available",
+            "id": 12351
+        }
+    ]
+}
